@@ -27,11 +27,11 @@ parse using a wide range of languages and platforms.
 
 ### Comments
 
-Comments start with a `#' and extend to the end of the line.
+Comments start with a `#` and extend to the end of the line.
 
 ### Records
 
-Each record is a single line, terminated by a `\n'.  Fields are
+Each record is a single line, terminated by a `\n`.  Fields are
 separated by single tab characters.
 
 ### Fields
@@ -40,7 +40,7 @@ separated by single tab characters.
  2. ADIF ID of correct DXCC entity.
  3. Date and time, in ISO-8601 extended format wrapped in double
     quotes. The timezone is always UTC.  If this is unspecified the
-    field contains `nil' (unquoted), in which case you should check
+    field contains `nil` (unquoted), in which case you should check
     using the current date and time.
  4. Optional notes, as a string delimited by double quotes.  It is
     not possible to escape the delimiters, so you can't include
